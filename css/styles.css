@@ -4,11 +4,13 @@ h1, h2, h3 , h4, h5, h6 {
 p {
   font-family:  sans-serif;
 }
-
+body{
+  background-color: #EDE8E8;
+}
 .customNav {
   position: fixed;
   width: 100%;
-  background-color:transparent !important;
+  background-color:#EDE8E8 !important;
   background-size: cover;
   z-index: 10;
 }
