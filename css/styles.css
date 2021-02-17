@@ -7,6 +7,11 @@ p {
 body{
   background-color: #EDE8E8;
 }
+.container p{
+ margin-top: 25px;
+ font-size: large;
+ text-align: center ;
+}
 .customNav {
   position: fixed;
   width: 100%;
@@ -29,6 +34,10 @@ body{
 .nav-item {
   margin: 0px 15px;
   
+}
+.button1{
+  background-color: #F9B197;
+  border-color: white;
 }
 /* Navigation links */
 .customNav a {
