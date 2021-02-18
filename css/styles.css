@@ -4,8 +4,17 @@ body {
 h1, h2, h3 , h4, h5, h6 {
   font-family:  sans-serif;
 }
+h1 {
+  padding: 15px;
+}
+h4 {
+  padding: 10px;
+  margin-top: 20px;
+}
 p {
   font-family:  sans-serif;
+  text-align: left;
+  margin-bottom: 50px;
 }
 body {
   background-color: #EDE8E8;
@@ -17,6 +26,7 @@ body {
  text-align: center ;
 }
 
+
 .customNav {
   position: fixed;
   width: 100%;
@@ -26,8 +36,12 @@ body {
 }
 
 .navbar-nav {
-  margin: 0 auto;
+  margin-left: 600px;
+}
 
+.btn {
+  background-color: #F9B197;
+  border-color: white;
 }
 
 .dailyText {
@@ -36,7 +50,11 @@ body {
 
 .navbar-brand img {
   padding-right: 15px;
-  width: 65px;
+  width: 100px;
+}
+
+.card-img-top {
+  width: 50px;
 }
 
 .nav-item {
@@ -49,7 +67,7 @@ body {
 }
 /* Navigation links */
 .customNav a {
-  color:black !important;
+  color:rgb(40, 39, 39) !important;
 }
 .navCTA {
   font-size: 15px;
@@ -66,14 +84,14 @@ body {
   align-content: center;
   justify-items: center;
   color: rgb(31, 30, 30);
-
+ 
 }
 
 .headerTxt {
   font-size: 30px;
 
 }
-
+/* Footer */
 footer {
   background-color: #0084C7;
   width: 100%;
@@ -103,7 +121,7 @@ a {
 .cardContainer {
   text-align: center;
   align-items: center;
-  
+
 }
 
 .cardContainer img{
