@@ -7,6 +7,18 @@ h1, h2, h3 , h4, h5, h6 {
 h1 {
   padding: 15px;
 }
+h2 {
+  padding: 10px;
+  margin: 50px;
+  position: center;
+  margin-left: 0px;
+}
+h3 {
+  padding: 10px;
+  margin-bottom: 20px;
+  position: center;
+  margin-left: 60px;
+}
 h4 {
   padding: 10px;
   margin-top: 20px;
