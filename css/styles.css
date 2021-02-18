@@ -1,17 +1,22 @@
+body {
+  margin: 0rem 2rem 1rem 2rem;
+}
 h1, h2, h3 , h4, h5, h6 {
   font-family:  sans-serif;
 }
 p {
   font-family:  sans-serif;
 }
-body{
+body {
   background-color: #EDE8E8;
 }
-.container p{
+
+.container p {
  margin-top: 25px;
  font-size: large;
  text-align: center ;
 }
+
 .customNav {
   position: fixed;
   width: 100%;
@@ -19,13 +24,16 @@ body{
   background-size: cover;
   z-index: 10;
 }
+
 .navbar-nav {
- 
   margin: 0 auto;
+
 }
-.dailyText{
+
+.dailyText {
   align-content: left;
 }
+
 .navbar-brand img {
   padding-right: 15px;
   width: 65px;
@@ -35,7 +43,7 @@ body{
   margin: 0px 15px;
   
 }
-.button1{
+.button1 {
   background-color: #F9B197;
   border-color: white;
 }
@@ -47,42 +55,34 @@ body{
   font-size: 15px;
 }
 
-.heroImg{
+.heroImg {
   width:100%;
+
 }
+
 .container{
-  
   padding-top: 10%;
   max-width:100%;
   align-content: center;
   justify-items: center;
   color: rgb(31, 30, 30);
-  
+
 }
-.headerTxt{
+
+.headerTxt {
   font-size: 30px;
+
 }
+
 footer {
-
   background-color: #0084C7;
-
   width: 100%;
-
   margin-top: 50px;
-
   color: white;
   
 }
-/* .container ul{
-  display:flex;
-  flex-direction:row;
-  justify-content: space-evenly;
-  list-style: none;
-  
-  
-} */
 
-a{
+a {
   color:white;
 }
 /* Cards */
@@ -91,10 +91,12 @@ a{
   padding-left: 0px;
   
 }
+
 .sectionHeading {
   text-align: center;
   
 }
+
 .skills  {
   padding: 0px 30px 30px 30px;
 }
@@ -103,6 +105,7 @@ a{
   align-items: center;
   
 }
+
 .cardContainer img{
   display: block;
   width:30%;
@@ -110,4 +113,51 @@ a{
   
 }
 
+/* tips and discussion */
+.heroImgTips{
+  width:60%;
+}
 
+.facesImg {
+  width: 8vw;
+  border: 2px solid white;
+}
+
+.media {
+  border: 5px solid white;
+  padding: 10px 20px;
+  margin: 4px 2px;
+  border-radius: 80px;
+}
+
+.blue {
+  background-color: #0084C7;
+}
+
+.pink {
+  background-color: #F9B197;
+}
+
+.lightBlue {
+  background-color: #049dd9;
+}
+
+.media-body {
+  margin: 10px 10px;
+}
+
+.btnIcon {
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+  width: 15px;
+  margin: 0px 15px;
+}
+
+.fa {
+  color: white;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
