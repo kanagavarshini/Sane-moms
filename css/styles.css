@@ -97,7 +97,7 @@ body {
   justify-items: center;
   color: rgb(31, 30, 30);
  
-}
+} 
 
 .headerTxt {
   font-size: 30px;
@@ -146,11 +146,14 @@ a {
 /* tips and discussion */
 .heroImgTips{
   width:60%;
+
 }
 
 .facesImg {
-  width: 8vw;
+  /* height: 200px; */
+  width: 100%; 
   border: 2px solid white;
+
 }
 
 .media {
@@ -173,7 +176,9 @@ a {
 }
 
 .media-body {
-  margin: 10px 10px;
+  margin-top: 0;
+  margin-right: 0px;
+  text-align: right;
 }
 
 .btnIcon {
