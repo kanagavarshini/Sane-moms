@@ -91,9 +91,9 @@ body {
   padding-right: 15px;
   width: 100px;
 }
-
-.card-img-top {
-  width: 50px;
+.active{
+  
+  font-weight: bold;
 }
 
 .nav-item {
@@ -104,6 +104,7 @@ body {
   background-color: #F9B197;
   border-color: white;
 }
+
 /* Navigation links */
 .customNav a {
   color:rgb(40, 39, 39) !important;
@@ -114,7 +115,7 @@ body {
 
 .heroImg {
   width:100%;
-
+  margin-left: 15px;
 }
 
 .container{
@@ -130,14 +131,7 @@ body {
   font-size: 30px;
 
 }
-/* Footer */
-footer {
-  background-color: #0084C7;
-  width: 100%;
-  margin-top: 50px;
-  color: white;
-  
-}
+
 
 a {
   color:white;
@@ -160,9 +154,12 @@ a {
 .cardContainer {
   text-align: center;
   align-items: center;
+  padding-left: 0%;
 
 }
-
+.card{
+  height: 400px;
+}
 .cardContainer img{
   display: block;
   width:30%;
@@ -173,6 +170,7 @@ a {
 /* tips and discussion */
 .heroImgTips{
   width:60%;
+  
 
 }
 
@@ -209,17 +207,34 @@ a {
 }
 
 .btnIcon {
+  align-content: center;
   cursor: pointer;
   background-color: transparent;
   border-color: transparent;
   width: 15px;
   margin: 0px 15px;
-}
-
-.fa {
   color: white;
 }
+
+
 
 .nav-item:hover {
   text-decoration: underline;
 }
+/* Footer */
+.footer {
+  background-color: #0084C7 ;
+  width: 100%;
+  margin-top: 50px;
+  color: white;
+  
+}
+
+ .footer ul { 
+  display: inline;
+  list-style-type: none;
+  float: left;
+  background-color:#0084C7 ;
+  
+ } 
+ 
