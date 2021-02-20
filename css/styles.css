@@ -227,11 +227,12 @@ a {
   width: 100%;
   margin-top: 50px;
   color: white;
-  
+  height: 100px ;
 }
 
  .footer ul { 
   display: inline;
+  margin-top: 10px;
   list-style-type: none;
   float: left;
   background-color:#0084C7 ;
