@@ -75,18 +75,14 @@ body {
 }
 
 .navbar-nav {
-  margin-left: 600px;
+ margin: 0 auto;
 }
 
 .btn {
   background-color: #F9B197;
   border-color: white;
 }
-.form1{
-  margin-left: 150px;
-  margin-top: 0%;
-  margin-bottom: 50px;
-}
+
 .community{
   text-align: center;
   color: black;
@@ -223,7 +219,11 @@ a {
   margin: 0px 15px;
   color: white;
 }
-
+.form1{
+  margin-left:250px;
+  margin-top: 0%;
+  margin-bottom: 50px;
+}
 
 
 .nav-item:hover {
