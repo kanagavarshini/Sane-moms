@@ -177,7 +177,13 @@ a {
   
 
 }
-
+.modal{
+  margin-top: 300px;
+}
+label{
+  text-align:left;
+  font-weight: bold;
+}
 .facesImg {
   width: 100px;
   height:auto;
